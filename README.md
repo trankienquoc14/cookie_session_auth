@@ -21,8 +21,8 @@
 - **Body (JSON):**
 	```json
 	{
-		"username": "testuser",
-		"password": "123456"
+		"username": "admin",
+		"password": "12345"
 	}
 	```
 - **Kết quả thành công:**
@@ -44,8 +44,8 @@
 - **Body (JSON):**
 	```json
 	{
-		"username": "testuser",
-		"password": "123456"
+		"username": "admin",
+		"password": "12345"
 	}
 	```
 - **Kết quả thành công:**
