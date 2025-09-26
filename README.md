@@ -15,7 +15,7 @@
 ![alt text](public/image/image2.png)
 ## 2. Test API với POSTMAN
 
-### b. Đăng ký tài khoản (register)
+### b. Register
 - **Method:** POST
 - **URL:** `http://localhost:3000/auth/register`
 - **Body (JSON):**
@@ -38,7 +38,7 @@
 - **Trường hợp lỗi:**
 	- Trùng username: `{ "error": "User registration failed", ... }`
 ![alt text](public/image/image5.png)  
-### c. Đăng nhập (login)
+### c. Login
 - **Method:** POST
 - **URL:** `http://localhost:3000/auth/login`
 - **Body (JSON):**
@@ -67,7 +67,7 @@
 - **Trường hợp lỗi:**
 	- Chưa đăng nhập: `{ "error": "Unauthorized" }`
 ![alt text](public/image/image10.png)  
-### e. Đăng xuất (logout)
+### e. Logout
 - **Method:** GET
 - **URL:** `http://localhost:3000/auth/logout`
 - **Kết quả thành công:**
